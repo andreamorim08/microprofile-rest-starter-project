@@ -14,7 +14,7 @@ import javax.ws.rs.core.Response;
 public class HelloWorldEndpoint {
 
     @GET
-    public Response helloPayara() {
+    public Response helloMicroProfile() {
         return Response.ok("Hello From MicroProfile").build();
     }
 }
